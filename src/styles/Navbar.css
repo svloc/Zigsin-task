@@ -1,0 +1,71 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  background-color: #fff;
+  color: #000 !important;
+  padding-bottom: 3rem;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+  color: #9e9aa7;
+  font-size: 1.3rem;
+  list-style: none;
+}
+
+.product,
+.collection,
+.gifts,
+.our-magazine,
+.signup,
+.login,
+.search {
+  text-decoration: none;
+  padding: 10px 15px;
+  position: absolute;
+  font-size: 14px !important;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.product {
+  left: 5%;
+  color: #000;
+}
+
+.collection {
+  left: 14%;
+}
+.gifts {
+  left: 24%;
+}
+.our-magazine {
+  left: 31%;
+}
+.login {
+  right: 11%;
+}
+.search {
+  right: 17%;
+}
+
+.signup {
+  right: 2%;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    #d6c0bb 0%,
+    #edbb72 51%,
+    #97ef05 100%
+  );
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+  color: #fff !important;
+ 
+  padding: 7px 20px !important;
+}
