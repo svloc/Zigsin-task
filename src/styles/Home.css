@@ -1,12 +1,11 @@
 .home-container {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 960px;
+  max-width: 1000px;
+  margin: 5em auto;
 }
 
 .btn-home {
-  margin: 2rem;
+  margin: 2em auto;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
@@ -24,24 +23,13 @@
 }
 .home-row {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
   max-width: 100%;
-  flex-shrink: 0;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-.col {
-  margin-right: 2.5rem;
 }
 .col-6 {
-  text-align: center;
-}
-
-.col,
-.col-6 {
-  flex: 0 0 auto;
-  width: 45%;
+  width: 43%;
   background-color: #fff;
   text-align: center;
   padding-top: 2.5rem;

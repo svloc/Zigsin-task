@@ -1,18 +1,29 @@
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 5rem;
   background-color: #fff;
   color: #000 !important;
-  padding-bottom: 3rem;
 }
 
-.navbar-links {
+.navbar-links-1 {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
+align-items: center;
   list-style: none;
-  width: 75%;
+  width: 55%;
+  color: #9e9aa7;
+  font-size: 1.3rem;
+  list-style: none;
+
+}
+.navbar-links-2{
+  display: flex;
+  justify-content: space-evenly;
+align-items: center;
+list-style: none;
+  width: 25%;
   color: #9e9aa7;
   font-size: 1.3rem;
   list-style: none;
@@ -26,36 +37,15 @@
 .login,
 .search {
   text-decoration: none;
-  padding: 10px 15px;
-  position: absolute;
-  font-size: 14px !important;
-  margin: 0 8px;
   cursor: pointer;
+  font-size: 0.95rem;
 }
-
 .product {
-  left: 5%;
-  color: #000;
+color: #000;
 }
 
-.collection {
-  left: 14%;
-}
-.gifts {
-  left: 24%;
-}
-.our-magazine {
-  left: 31%;
-}
-.login {
-  right: 11%;
-}
-.search {
-  right: 17%;
-}
 
 .signup {
-  right: 2%;
   border: none;
   background-image: linear-gradient(
     to right,
@@ -66,6 +56,14 @@
   text-transform: uppercase;
   border-radius: 1.5rem;
   color: #fff !important;
- 
-  padding: 7px 20px !important;
+padding: 0.45em 1.5em;
+}
+
+.dropdown-menu{
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 50px;
+  padding: 1em auto;
 }

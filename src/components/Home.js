@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <div className="home-container">
         <div className="home-row">
-          <div className="col">
+          <div className="col-6">
             <div className="card-item"> 
               <h1>Ready for autumn collection</h1>
               <p>
